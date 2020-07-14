@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TopBarComponent {
   title = 'Royal Dentistry';
+  save() {
+    localStorage.setItem('gogoasa', '33');
+  }
 }
