@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './top-bar.component.html',
   styleUrls: ['./top-bar.component.scss']
 })
-export class TopBarComponent {}
+export class TopBarComponent {
+  title = 'Royal Dentistry';
+}
